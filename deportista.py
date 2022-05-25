@@ -1,5 +1,7 @@
-class Deportista:
-    def __init__(self,deporte,añosPracticando):
+from persona import Persona
+class Deportista(Persona):
+    def __init__(self, nombre , edad , altura, sexo, deporte, añosPracticando):
+        super().__init__(nombre, edad, altura, sexo)
         self._deporte = deporte
         self._añosPraticando = añosPracticando
 
