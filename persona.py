@@ -1,4 +1,4 @@
-class Persona:
+class Persona():
 
     # Constructor
     def __init__(self, nombre, edad, altura, sexo):
