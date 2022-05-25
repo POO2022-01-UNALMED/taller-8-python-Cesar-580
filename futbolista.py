@@ -1,7 +1,7 @@
 from deportista import Deportista
 from persona import Persona
 
-class Futbolista(Deportista):
+class Futbolista(Persona,Deportista):
     _listaFutbolistas=[]
 
     def __init__(self, nombre, edad, altura, sexo, añosPracticando, golesMarcados, tarjetasRojas, piernaHabil):
